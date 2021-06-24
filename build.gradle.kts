@@ -30,6 +30,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT")
     implementation("pro.darc.cake", "cakeapi", "0.1.9")
+    compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
 }
 
 tasks.withType<KotlinCompile> {
