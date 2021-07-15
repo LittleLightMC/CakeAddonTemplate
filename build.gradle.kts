@@ -1,6 +1,6 @@
 
 plugins {
-    kotlin("jvm") version "1.5.20"
+    kotlin("jvm") version "1.5.21"
 }
 
 group = "pro.darc.cake.addon"
@@ -28,8 +28,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT")
-    implementation("pro.darc.cake", "cakeapi", "0.1.22")
+    implementation("org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT")
+    implementation("pro.darc.cake", "cakeapi", "0.1.23")
     compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
 }
 
